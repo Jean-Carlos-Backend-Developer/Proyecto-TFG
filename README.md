@@ -57,15 +57,11 @@ Añadir productos de los distintos tipos de productos a la comanda (bebidas, ent
 
 Vista previa de la comanda con los productos añadidos 
 
-<img src="https://github.com/user-attachments/assets/85e2ef70-2c19-4d9f-ab87-348b9ff512bc" alt="image" width="400" height="750">
-
-<img src="https://github.com/user-attachments/assets/85e2ef70-2c19-4d9f-ab87-348b9ff512bc" alt="image" width="400" height="750">
 
 __Prueba el Proyecto__
 
-Si quieres ver el resto de opciones y funcionalidades, te invito a descargar mi proyecto y probar todas las opciones disponibles. Sigue estos pasos para empezar:
+Si quieres ver el resto de opciones como traspasar mesa, unir mesas y pagar te invito a descargar mi proyecto y probar todas las opciones disponibles. Sigue estos pasos para empezar:
 
-Clona el repositorio:
-git clone https://github.com/tu-usuario/OrdenaYa.git
-
-Abre el proyecto en Visual Studio y ejecuta la aplicación.
+- Descarga el fichero ordenaya.apk y pásalo a tu dispositivo móvil.
+- Instala la apk 
+- Una vez instalada abre la aplicación, regístrate , inicia sesión y prueba la app
