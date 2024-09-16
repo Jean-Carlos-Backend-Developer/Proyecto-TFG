@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="OrdenaYaVersion1.Views.Mesas.Mesas"
+    BackgroundColor="#f0f0f0" 
+    Title="Listado Mesas">
+
+    <StackLayout Padding="10">
+
+        <Label Text="Mesas libres" 
+               HorizontalOptions="Center"
+               FontSize="20"
+               TextColor="#333333"/> 
+
+        <StackLayout x:Name="MesasLibresStackLayout"
+                     HorizontalOptions="Center"/>
+
+        <Label Text="Mesas ocupadas" 
+               HorizontalOptions="Center"
+               FontSize="20"
+               TextColor="#333333"/> 
+
+        <StackLayout x:Name="MesasOcupadasStackLayout"
+                     HorizontalOptions="Center"/>
+
+    </StackLayout>
+
+</ContentPage>
+
+
+
+
+

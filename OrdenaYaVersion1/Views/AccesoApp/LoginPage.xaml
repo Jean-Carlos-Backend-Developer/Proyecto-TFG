@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="OrdenaYaVersion1.Views.AccesoApp.LoginPage"
+    NavigationPage.HasNavigationBar="False" 
+    BackgroundColor="#f0f0f0">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid RowSpacing="18" Padding="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/> 
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="150"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Grid.Row="1" HorizontalOptions="CenterAndExpand" Orientation="Vertical" Margin="0,0,0,10">
+                    <Image
+                        Source="logoOrdenaYA.png"
+                        WidthRequest="200"
+                        HeightRequest="200"
+                        BackgroundColor="#f0f0f0">
+                    </Image>
+                </StackLayout>
+
+                <StackLayout Grid.Row="2" HorizontalOptions="Center" Orientation="Vertical" Margin="0,0,0,10">
+                    <Label
+                        Text="Bienvenido"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        FontSize="26"
+                        Margin="0,0,0,5"
+                        WidthRequest="300"
+                        TextColor="#333333"/> 
+                    <Label
+                        Text="Inicia sesión para continuar"
+                        TextColor="#333333" 
+                        FontSize="15"
+                        WidthRequest="300"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="3" HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical">
+                    <Label
+                        Text="Email"
+                        FontSize="13"
+                        TextColor="#333333"/> 
+                    <Frame
+                        HasShadow="True"
+                        Padding="8"
+                        CornerRadius="7"
+                        BackgroundColor="White"> 
+                        <Entry
+                            Placeholder="example@gmail.com"
+                            Keyboard="Email"
+                            MaxLength="50"
+                            FontSize="15"
+                            x:Name="entryEmail"
+                            Text="{Binding entryEmail}"
+                            TextColor="#000000"
+                            PlaceholderColor="#333333"/>
+                    </Frame>   
+                </StackLayout>
+
+
+                <StackLayout Grid.Row="4" HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical" >
+                    <StackLayout Orientation="Horizontal" VerticalOptions="Center" Padding="0">
+                        <Label
+                            Text="Contraseña"
+                            FontSize="13"
+                            TextColor="#333333" 
+                            VerticalOptions="Center"
+                            WidthRequest="150"/>
+                    </StackLayout> 
+                    <Frame HasShadow="True" Padding="8" CornerRadius="7" BackgroundColor="White">
+                        <Entry
+                            Placeholder="******************"
+                            MaxLength="25"
+                            IsPassword="True"
+                            FontSize="15"
+                            x:Name="entryPassword"
+                            Text="{Binding entryPassword}"
+                            TextColor="#000000"
+                            PlaceholderColor="#333333"/>
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout Grid.Row="5" HorizontalOptions="Center" Orientation="Vertical" >
+                    <Button
+                        Text="Iniciar sesión"
+                        TextColor="White" 
+                        Font="Montserrat-Medium.otf"
+                        FontSize="15"
+                        BackgroundColor="#333333" 
+                        BorderColor="#f2f2f2"
+                        BorderWidth="1.5"
+                        WidthRequest="300"
+                        HeightRequest="50"
+                        Command="{Binding LoginCommand}"
+                        CornerRadius="10"/>
+
+                    <Button
+                        Text="No tienes cuenta? Regístrate"
+                        TextColor="#333333" 
+                        FontSize="11"
+                        BackgroundColor="White" 
+                        CornerRadius="10"
+                        Clicked="NavToRegister_Clicked"/>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+
+
