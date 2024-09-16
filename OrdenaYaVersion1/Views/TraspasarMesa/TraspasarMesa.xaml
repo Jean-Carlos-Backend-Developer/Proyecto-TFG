@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="OrdenaYaVersion1.Views.TraspasarMesa.TraspasarMesa"
+    BackgroundColor="#f0f0f0" 
+    Title="Traspasar Mesa">
+    <ContentPage.Content>
+        <Grid VerticalOptions="Center" HorizontalOptions="Center">
+            <Frame Padding="20" BackgroundColor="White"> 
+                <StackLayout>
+                    <Label Text="Traspasar Mesa" 
+                           FontSize="Large" 
+                           HorizontalOptions="Center" 
+                           TextColor="#333333"/> 
+                    <Picker x:Name="MesaOrigenPicker" 
+                            Title="Mesa Origen" 
+                            TitleColor="#333333"/> 
+                    <Picker x:Name="MesaDestinoPicker" 
+                            Title="Mesa Destino" 
+                            TitleColor="#333333"/> 
+                    <Button Text="ACEPTAR" 
+                            BackgroundColor="#333333" 
+                            TextColor="White" 
+                            Clicked="OnAceptarClicked"/>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
+
+
