@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="OrdenaYaVersion1.Views.PagarMesa.PagarMesa"
+    BackgroundColor="#f0f0f0"
+    Title="Total mesa {Binding Mesa}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="PAGAR" Clicked="OnPagarClicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout x:Name="layoutComanda" Padding="20" Orientation="Vertical" Spacing="20">
+               
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+
