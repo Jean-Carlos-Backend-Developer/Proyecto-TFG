@@ -9,8 +9,6 @@ OrdenaYa! es una aplicación de gestión de restaurantes desarrollada con Xamari
 - Unir y traspasar mesas.
 - Gestionar pagos de forma eficiente.
 
-OrdenaYa! se presenta como una solución eficaz para la gestión integral de restaurantes, agilizando procesos y mejorando la experiencia tanto del personal como de los clientes.
-
 __Principales Tecnologías__
 
 - Lenguaje de Programación: C#
@@ -20,24 +18,51 @@ __Principales Tecnologías__
 - Entorno de Desarrollo: Visual Studio
 
 __Características__
-Gestión de Mesas y Comandas: Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) sobre mesas y comandas.
-Consultas Personalizadas: Realiza consultas específicas sobre la base de datos para obtener información relevante.
-Gestión de Pagos: Calcula totales y gestiona pagos de manera eficiente.
-Autenticación de Usuarios: Utiliza Firebase para el registro e inicio de sesión de usuarios.
-Uso
-Inicia la aplicación desde tu dispositivo móvil.
-Sigue las instrucciones en pantalla para gestionar mesas y comandas.
-Utiliza las opciones de menú para realizar consultas y gestionar pagos.
-Capturas de Pantalla
-!Menú Principal Menú Principal
 
-!Gestión de Mesas Opción de ver todas las mesas dentro del menú de Mesas
+- Gestión de Mesas y Comandas: Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) sobre mesas y comandas.
+- Gestión de Pagos: Calcula totales y gestiona pagos de manera eficiente.
+- Autenticación de Usuarios: Utiliza Firebase para el registro e inicio de sesión de usuarios.
 
-!Gestión de Comandas Opción de ver todas las comandas dentro del menú de Comandas
+__Uso__
 
-!Gestión de Pagos Opción de gestionar pagos dentro del menú de Pagos
+- Inicia la aplicación desde tu dispositivo móvil.
+- Inicia sesión o regístrate.
+- Sigue las instrucciones en pantalla para gestionar mesas y comandas.
+- Utiliza las opciones de menú para realizar consultas y gestionar pagos.
 
-Prueba el Proyecto
+__Capturas de Pantalla__
+
+<img src="https://github.com/user-attachments/assets/769ff625-f526-4f02-8bf4-e1285dcb0513" alt="image" width="400" height="750">
+
+Inicio de sesión
+
+<img src="https://github.com/user-attachments/assets/e5972d5a-dde2-48a0-a482-dc0e55842818" alt="image" width="400" height="750">
+
+Registro de usuarios
+
+<img src="https://github.com/user-attachments/assets/90ac5d92-42e3-4e48-a57e-21fbd90c431a" alt="image" width="400" height="750">
+
+Menú principal
+
+<img src="https://github.com/user-attachments/assets/85e2ef70-2c19-4d9f-ab87-348b9ff512bc" alt="image" width="400" height="750">
+
+Listado de mesas libres y ocupadas dentro del menú de tomar comanda
+
+<img src="https://github.com/user-attachments/assets/42b8eb53-64ac-4ad2-b48d-eb95285b4f44" alt="image" width="400" height="750">
+<img src="https://github.com/user-attachments/assets/3d63cd80-8011-4799-9fab-4ec1f41da604" alt="image" width="400" height="750">
+
+Añadir productos de los distintos tipos de productos a la comanda (bebidas, entrantes, carnes, pescados, cafes y postres)
+
+<img src="https://github.com/user-attachments/assets/f5853826-2e5b-4e57-9ea7-0c28762d5a57" alt="image" width="400" height="750">
+
+Vista previa de la comanda con los productos añadidos 
+
+<img src="https://github.com/user-attachments/assets/85e2ef70-2c19-4d9f-ab87-348b9ff512bc" alt="image" width="400" height="750">
+
+<img src="https://github.com/user-attachments/assets/85e2ef70-2c19-4d9f-ab87-348b9ff512bc" alt="image" width="400" height="750">
+
+__Prueba el Proyecto__
+
 Si quieres ver el resto de opciones y funcionalidades, te invito a descargar mi proyecto y probar todas las opciones disponibles. Sigue estos pasos para empezar:
 
 Clona el repositorio:
