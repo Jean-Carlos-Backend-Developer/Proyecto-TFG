@@ -32,31 +32,37 @@ __Uso__
 
 __Capturas de Pantalla__
 
-<img src="https://github.com/user-attachments/assets/769ff625-f526-4f02-8bf4-e1285dcb0513" alt="image" width="400" height="750">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/769ff625-f526-4f02-8bf4-e1285dcb0513" alt="image" width="400" height="750">
+  <p><em>Inicio de sesión</em></p>
+</div>
 
-Inicio de sesión
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e5972d5a-dde2-48a0-a482-dc0e55842818" alt="image" width="400" height="750">
+  <p><em>Registro de usuarios</em></p>
+</div>
 
-<img src="https://github.com/user-attachments/assets/e5972d5a-dde2-48a0-a482-dc0e55842818" alt="image" width="400" height="750">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/90ac5d92-42e3-4e48-a57e-21fbd90c431a" alt="image" width="400" height="750">
+  <p><em>Menú principal</em></p>
+</div>
 
-Registro de usuarios
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/85e2ef70-2c19-4d9f-ab87-348b9ff512bc" alt="image" width="400" height="750">
+  <p><em>Listado de mesas libres y ocupadas dentro del menú de tomar comanda
+</em></p>
+</div>
 
-<img src="https://github.com/user-attachments/assets/90ac5d92-42e3-4e48-a57e-21fbd90c431a" alt="image" width="400" height="750">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/42b8eb53-64ac-4ad2-b48d-eb95285b4f44" alt="image" width="400" height="750">
+  <img src="https://github.com/user-attachments/assets/3d63cd80-8011-4799-9fab-4ec1f41da604" alt="image" width="400" height="750">
+  <p><em>Añadir productos de los distintos tipos de productos a la comanda (bebidas, entrantes, carnes, pescados, cafes y postres)</em></p>
+</div>
 
-Menú principal
-
-<img src="https://github.com/user-attachments/assets/85e2ef70-2c19-4d9f-ab87-348b9ff512bc" alt="image" width="400" height="750">
-
-Listado de mesas libres y ocupadas dentro del menú de tomar comanda
-
-<img src="https://github.com/user-attachments/assets/42b8eb53-64ac-4ad2-b48d-eb95285b4f44" alt="image" width="400" height="750">
-<img src="https://github.com/user-attachments/assets/3d63cd80-8011-4799-9fab-4ec1f41da604" alt="image" width="400" height="750">
-
-Añadir productos de los distintos tipos de productos a la comanda (bebidas, entrantes, carnes, pescados, cafes y postres)
-
-<img src="https://github.com/user-attachments/assets/f5853826-2e5b-4e57-9ea7-0c28762d5a57" alt="image" width="400" height="750">
-
-Vista previa de la comanda con los productos añadidos 
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f5853826-2e5b-4e57-9ea7-0c28762d5a57" alt="image" width="400" height="750">
+  <p><em>Vista previa de la comanda con los productos añadidos </em></p>
+</div>
 
 __Prueba el Proyecto__
 
